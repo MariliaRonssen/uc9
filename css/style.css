@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rasa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rasa&family=Roboto:ital@1&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ header{
     height: 80px;
 }
 
-.container-grid{
+.container-grid {
     width: 1200px;
     height: 100%;
     margin: auto;
@@ -17,12 +17,9 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.menu a{
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Rasa', serif;
-    font-size: 20px;
+.container-grid img{
+    width: 200px;
+    height:470px;
 }
 .menu{
     width: 660px;
@@ -30,3 +27,104 @@ header{
     justify-content: space-between;
 }
 
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Rasa', serif;
+    font-size: 20px;
+}
+.barras{
+    width: 30px;
+    display: none;
+}
+
+.banner{
+    background-image: url(../img/banner.svg);
+    height: 360px;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.secao-icone{
+    background-color:white;
+    
+}
+.icones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icones img{
+    width: 100px;
+}
+.icones p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+.primeiras-ofertas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.oferta-carroceu img{
+    height: 325px;
+    width: 600px;
+}
+.reportagens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.noticias img{
+    height: 300px;
+    width: 400px;
+}
+.em-promocaos{
+    display: flex;
+    align-items: center;
+}
+.promo img{
+    height: 600px;
+    width: 2000px;
+}
+@media screen and (max-width: 1200px) {
+    .container-grid{
+        width: 90%;
+    }
+    .menu{
+        width: 460px;
+    }
+    .menu a{
+        font-size: 16px;
+    }
+    .logo{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        color:blue;
+    }
+    .barras{
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        position: absolute;
+        top: 0;
+        right: 65px;
+        background-color: black;
+    }
+    .menu a{
+        text-align: center;
+        padding: 15px;
+    }
+    .posicionamento-header{
+        position: relative;
+    }
+}
