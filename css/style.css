@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 header{
-    background-color:black;
+    background-color:rgb(19, 18, 18);
     height: 80px;
 }
 
@@ -17,11 +17,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.container-grid img{
+.logo {
     width: 200px;
     height:470px;
 }
-.menu{
+.menu {
     width: 660px;
     display: flex;
     justify-content: space-between;
@@ -33,10 +33,6 @@ header{
     text-transform: uppercase;
     font-family: 'Rasa', serif;
     font-size: 20px;
-}
-.barras{
-    width: 30px;
-    display: none;
 }
 
 .banner{
@@ -89,6 +85,14 @@ header{
     height: 600px;
     width: 2000px;
 }
+
+.posicionamento-header{
+    position: relative;
+}
+.barras{
+    
+    display: none;
+}
 @media screen and (max-width: 1200px) {
     .container-grid{
         width: 90%;
@@ -102,19 +106,21 @@ header{
     .logo{
         width: 200px;
     }
+    
 }
 
 @media screen and (max-width: 768px) {
-    h1{
-        color:blue;
-    }
+    
     .barras{
         display: inline-block;
+        width: 40px;
+        
     }
     .menu{
         display: none;
         flex-direction: column;
         width: 200px;
+        height: 200px;
         position: absolute;
         top: 0;
         right: 65px;
@@ -123,7 +129,8 @@ header{
     .menu a{
         text-align: center;
         padding: 15px;
-    }
+    }     
+      
     .posicionamento-header{
         position: relative;
     }
