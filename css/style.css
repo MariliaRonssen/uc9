@@ -10,7 +10,7 @@ header{
 }
 
 .container-grid {
-    width: 1200px;
+    
     height: 100%;
     margin: auto;
     display: flex;
@@ -52,11 +52,11 @@ header{
     align-items: center;
 }
 .icones img{
-    width: 100px;
+    width: 120px;
 }
 .icones p{
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     color: black;
 }
 .primeiras-ofertas{
@@ -77,13 +77,9 @@ header{
     height: 300px;
     width: 400px;
 }
-.em-promocaos{
-    display: flex;
-    align-items: center;
-}
+
 .promo img{
-    height: 600px;
-    width: 2000px;
+     width: 100%;
 }
 
 .posicionamento-header{
@@ -93,6 +89,36 @@ header{
     
     display: none;
 }
+.footer-texto a {
+    font-family: 'Rasa';
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: rgb(187, 181, 181); 
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+
+}
+.footer-redes-sociais  img {
+    height: 8%;
+    width: 20%;
+    
+   
+}
+.footer-icones img{
+    height: 60%;
+}
+.footer-pagamentos img{
+    height: 130px;
+    width: 300px;
+}
+
+   
+
 @media screen and (max-width: 1200px) {
     .container-grid{
         width: 90%;
@@ -110,7 +136,9 @@ header{
 }
 
 @media screen and (max-width: 768px) {
-    
+    .container-grid{
+        width: 90%;
+    }
     .barras{
         display: inline-block;
         width: 40px;
