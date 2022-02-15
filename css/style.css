@@ -96,18 +96,15 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.footer{
+footer{
     background-color: rgb(187, 181, 181); 
     display: flex;
     justify-content: space-between;
     padding: 16px;
-
 }
 .footer-redes-sociais  img {
     height: 8%;
-    width: 20%;
-    
-   
+    width: 20%;    
 }
 .footer-icones img{
     height: 60%;
@@ -115,6 +112,13 @@ header{
 .footer-pagamentos img{
     height: 130px;
     width: 300px;
+}
+button{
+ color: rgb(10, 10, 10);
+background-color: darkturquoise;
+font-family: 'Rasa';
+font-size: 20px;
+ 
 }
 
    
@@ -158,8 +162,13 @@ header{
         text-align: center;
         padding: 15px;
     }     
-      
+    .banner{
+        width: 90%;             
+    }
     .posicionamento-header{
         position: relative;
+    }
+    .footer .container-grid{
+        width: 90%;
     }
 }

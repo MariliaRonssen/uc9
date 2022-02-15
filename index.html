@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body onload="mostrarPopup()">
     <header>
         <div class="container-grid posicionamento-header">
             <a href=""><img class="logo" src="img/logo.svg" alt="Logo do site"></a>
@@ -56,7 +56,7 @@
         </div>
     </section>
 
-   
+   <footer>
     <section class="footer container-grid">
          <div class="footer-texto">
              <ul>
@@ -86,11 +86,12 @@
             <h2>Faça parte do nosso grupo de promoções especiais, cadastre-se aqui</h2>
             <form action="">
                 <input id ="campo-email" type="email" placeholder="E-mail">
-                <button>Cadastrar</button>
+                <button onclick="enviarEmail">Cadastrar</button>
             </form>
         </div>
    
     </section>
+</footer>
     <script>
         let menu = document.getElementById("menu");
 
@@ -102,6 +103,7 @@
             }          
         }
     </script>
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
