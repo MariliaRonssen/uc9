@@ -42,6 +42,17 @@ header{
     background-size: cover;
 }
 
+#carrosel img{
+    display: none;
+   
+}
+.carrosel{
+    height: 365px;
+    text-align: center;
+}
+.banner-ativo{
+    display: flex;
+}
 .secao-icone{
     background-color:white;
     
@@ -68,16 +79,20 @@ header{
     height: 325px;
     width: 600px;
 }
-.reportagens{
-    display: flex;
+
+.cardnews img{
+    height: 300px;
+    width: 400px;
+   
+   
+}
+.cardnews {
+    font-size: 25px;
+    font-family: 'Roboto' sans-serif;
+    color: darkred;
     justify-content: space-between;
     align-items: center;
 }
-.noticias img{
-    height: 300px;
-    width: 400px;
-}
-
 .promo img{
      width: 100%;
 }
@@ -171,4 +186,10 @@ font-size: 20px;
     .footer .container-grid{
         width: 90%;
     }
+    .menu-ativo{
+        display: flex;
+
+    }
+
+    
 }
