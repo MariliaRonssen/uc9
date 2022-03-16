@@ -91,7 +91,7 @@ header{
     font-family: 'Roboto' sans-serif;
     color: darkred;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
 }
 .promo img{
      width: 100%;
@@ -136,7 +136,6 @@ font-size: 20px;
  
 }
 
-   
 
 @media screen and (max-width: 1200px) {
     .container-grid{
@@ -192,4 +191,22 @@ font-size: 20px;
     }
 
     
+}
+
+
+/* pagina de login */
+
+.login-usuario {
+    text-align: center;
+    font-family: 'Rasa';
+    font-size: 20px;
+    color: black;
+
+}
+
+.login-novo-usuario {
+    text-align: center;
+    font-family: 'Rasa';
+    font-size: 20px;
+    color: black;
 }

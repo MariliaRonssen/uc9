@@ -68,3 +68,12 @@ function renderizarNoticias(){
     }
     espaco.innerHTML = template;
 }
+
+function esqueciASenha() {
+    let email = document.getElementById('log-email').value;
+    if (email != null && email.indexOf('@') > 0) {
+        alert('Enviaremos a sua nova senha para o email ' + email +'.' );
+    } else {
+        alert('Entre com seu email acima e tente novamente');
+    }
+}
