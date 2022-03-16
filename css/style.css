@@ -10,7 +10,6 @@ header{
 }
 
 .container-grid {
-    
     height: 100%;
     margin: auto;
     display: flex;
@@ -150,7 +149,7 @@ font-size: 20px;
     .logo{
         width: 200px;
     }
-    
+   
 }
 
 @media screen and (max-width: 768px) {
@@ -182,7 +181,7 @@ font-size: 20px;
     .posicionamento-header{
         position: relative;
     }
-    .footer .container-grid{
+    .footer{
         width: 90%;
     }
     .menu-ativo{
